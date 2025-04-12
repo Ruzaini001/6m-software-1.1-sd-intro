@@ -34,7 +34,7 @@ CSS Grouping Selector
         Keep the blue box withiin the purple box using the box-sizing property.
         You can edit the css code on the developer's tool.
       </div>
-    </div>
+</div>
 ```
 
 > hint: you should apply box-sizing property to the `.child` class. Make the changes on the developer's tool to see immediate UI change.
