@@ -43,7 +43,7 @@ The edit to be made to ensure perfect fit is changing the width from 100% to 97%
       .child {
         border: mediumblue 8px solid;
         width: 97%;
-        height: 200%;
+        height: 100%;
         margin: 0;
       }
 ```
