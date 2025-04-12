@@ -24,17 +24,28 @@ b) padding: 10px;
 
 4. What is the css selector of the fourth element?
 ```
-CSS Grouping Selector
+"div:nth-child(6)" uses the element selector
 ```
 
 5. What is the code you use to keep the blue box within the purple?
 ```
+The code that ensures that blue box is within purple is:
+
 <div class="parent">
       <div class="child">
         Keep the blue box withiin the purple box using the box-sizing property.
         You can edit the css code on the developer's tool.
       </div>
 </div>
+
+The edit to be made to ensure perfect fir is changing the width from 100% to 97%:
+
+      .child {
+        border: mediumblue 8px solid;
+        width: 97%;
+        height: 200%;
+        margin: 0;
+      }
 ```
 
 > hint: you should apply box-sizing property to the `.child` class. Make the changes on the developer's tool to see immediate UI change.
