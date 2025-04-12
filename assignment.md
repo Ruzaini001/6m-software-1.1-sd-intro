@@ -38,7 +38,7 @@ The code that ensures that blue box is within purple is:
       </div>
 </div>
 
-The edit to be made to ensure perfect fir is changing the width from 100% to 97%:
+The edit to be made to ensure perfect fit is changing the width from 100% to 97%:
 
       .child {
         border: mediumblue 8px solid;
